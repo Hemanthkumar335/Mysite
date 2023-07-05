@@ -1,0 +1,90 @@
+@media screen and (min-width: 880px) and (max-width: 1600px){
+    a{
+        text-decoration: none;
+        color: blue;
+    }
+    h1{
+        text-align: center;
+        color: blueviolet;
+        font-size: 80px;
+        margin-top: 200px;
+    }
+    body{
+        margin:0;
+        background-image: url(https://png.pngtree.com/thumb_back/fh260/background/20210807/pngtree-simple-wallpaper-fuzzy-love-cute-light-blue-background-image_758094.jpg);
+        background-repeat: no-repeat, no-repeat;
+        background-size: cover;
+    }
+  .nav{
+        background-color: rgba(0, 0, 0, 0.705);
+
+    }
+    .li1{
+        display: flex;
+        gap: 20px;
+        position: fixed;
+        right: 100px;
+        top: 0px;
+        font-size: 30px;
+        color: green;
+    }
+    
+    .li1 :hover{
+        font-size: xx-large;
+        color: orangered;
+        text-shadow: 2px 2px gray;
+    }
+}
+
+@media screen and (min-width: 0px) and (max-width: 879px) {
+    body{
+        margin:0;
+        background-color: darkseagreen;
+    }
+    .li1{
+        display: flex;
+        gap: 20px;
+        position: fixed;
+        right: 100px;
+        top: 0px;
+        font-size: 30px;
+        color: green;
+        flex-direction: column;
+    }
+    
+    .li1 :hover{
+        font-size: xx-large;
+        color: orangered;
+        text-shadow: 2px 2px gray;
+    }
+    a{
+        text-decoration: none;
+        color: blue;  
+    }
+
+}
+
+
+
+
+h1:hover{
+    font-size: 85px;
+    text-shadow: 3px 3px gray;
+}
+
+
+
+.ic{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.ic :hover{
+    transform: scale(1.5,1.5);
+    rotate: 360deg;
+    transition: 0.5s;
+}
+
+
+
